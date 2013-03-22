@@ -1,4 +1,49 @@
-*.log
-*.pot
-*.pyc
+bulletin/static
+bulletin/media
+
+# Projeto
+*.db
+*~
 local_settings.py
+src/**
+
+*.py[co]
+.Python
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+.ropeproject/**
+bulletin/.ropeproject/**
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+
+# virtualenv
+lib/**
+include/**
+
+# vim buffers
+*.swo
+*.swp
+*.swn
+*.swm
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
